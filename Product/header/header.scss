@@ -1,1 +1,64 @@
 @import url(./navbar/navbar.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+@media (max-width: 1424px) {
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.price {
+    display: flex;
+    align-items: center;
+
+    h3 {
+        font-size: 76px;
+        font-weight: 700;
+        line-height: 100px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        color: rgba(2, 137, 122, 1);
+    }
+
+    .price_box {
+        p {
+            font-family: Inter;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+            color: rgba(2, 137, 122, 1);
+        }
+
+        span {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0.10000000149011612px;
+            text-align: left;
+            color: rgba(175, 175, 175, 1);
+
+        }
+    }
+}
+
+.header_box_page {
+    width: 350px;
+    height: 500px;
+    background-color: #0000;
+}
