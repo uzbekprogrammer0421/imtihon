@@ -1,0 +1,25 @@
+@import url(../footer/footer.css);
+@import url(../header/header.css);
+@import url(../main/main.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+@media (max-width: 1424px) {
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

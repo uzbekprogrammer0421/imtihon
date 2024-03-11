@@ -123,7 +123,7 @@ header {
 
     h4 {
         font-family: "Poppins";
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 500;
         line-height: 36px;
         color: #fff;
@@ -278,53 +278,22 @@ header {
 }
 
 @media (max-width: 700px) {
-    .box {
-
-        h4 {
-            font-family: "Poppins";
-            font-size: 28px;
-            font-weight: 500;
-            line-height: 28px;
-            color: #fff;
-            padding: 22px 0px;
-        }
-
-        h2 {
-            font-family: "Poppins";
-            font-size: 30px;
-            font-weight: 600;
-            line-height: 40px;
-            text-align: center;
-            color: #fff;
-
-        }
-
-        p {
-            font-family: "Poppins";
-            font-size: 12px;
-            font-weight: 500;
-            line-height: 40px;
-            color: #fff;
-        }
-    }
-}
-@media (max-width: 450px) {
-    .box {
+    .header_box {
 
         h4 {
             font-family: "Poppins";
             font-size: 24px;
-            font-weight: 400;
-            line-height: 20px;
+            font-weight: 500;
+            line-height: 36px;
             color: #fff;
-            padding: 15px 0px;
+            padding: 32px 0px;
         }
 
         h2 {
             font-family: "Poppins";
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 30px;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 60px;
             text-align: center;
             color: #fff;
 
@@ -332,9 +301,9 @@ header {
 
         p {
             font-family: "Poppins";
-            font-size: 10px;
-            font-weight: 400;
-            line-height: 30px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 60px;
             color: #fff;
         }
     }

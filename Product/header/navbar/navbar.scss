@@ -9,6 +9,7 @@ nav {
         display: flex;
         gap: 20px;
         align-items: center;
+
         h1 {
             font-size: 30px;
             font-weight: 700;
@@ -34,44 +35,46 @@ nav {
 
             a {
                 font-size: 16px;
-                font-weight: 600;
-                line-height: 28px;
-                text-align: left;
-                font-size: 16px;
-                font-weight: 400;
                 line-height: 28px;
                 text-align: left;
                 color: rgba(255, 255, 255, 1);
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-style: normal;
             }
         }
-
         .sign_in_btn {
-            padding: 10px 30px;
+            width: 100px;
             font-size: 16px;
-            font-weight: 600;
-            line-height: 24px;
+            font-weight: 400;
+            line-height: 45px;
             letter-spacing: 0px;
-            text-align: left;
+            text-align: center;
             color: rgba(255, 255, 255, 1);
             background: rgba(31, 46, 53, 1);
             border: 1px solid white;
             border-radius: 5px;
         }
-
+        
         .sign_up_btn {
-            padding: 10px 30px;
+            width: 100px;
             font-size: 16px;
-            font-weight: 600;
-            line-height: 24px;
-            text-align: left;
+            font-weight: 400;
+            line-height: 45px;
+            text-align: center;
             color: rgba(255, 255, 255, 1);
             background: rgba(2, 137, 122, 1);
             border: 1px solid white;
             border-radius: 5px;
         }
-
+        
         .nav_img {
             margin: auto auto;
+        }
+        i {
+            display: none;
+            align-items: center;
+            color: white;
         }
     }
 }
@@ -80,8 +83,10 @@ nav {
     nav {
         .nav_box_text {
             ul {
-
                 display: none;
+            }
+            i {
+                display: flex;
             }
             .sign_in_btn {
                 padding: 5px 15px;
@@ -90,6 +95,7 @@ nav {
                 line-height: 18px;
                 text-align: left;
             }
+
             .sign_up_btn {
                 padding: 5px 15px;
                 font-size: 12px;
@@ -101,15 +107,18 @@ nav {
 
     }
 }
+
 @media (max-width: 575px) {
     nav {
         .nav_box_text {
-            .sign_in_btn{
+            .sign_in_btn {
                 display: none;
             }
-            .sign_up_btn{
+
+            .sign_up_btn {
                 display: none;
             }
+
             .nav_img {
                 display: none;
             }
